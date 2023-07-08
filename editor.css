@@ -1,0 +1,98 @@
+body{
+	background-color: black;
+}
+body.change-bg {
+    background-color: white;
+}
+.bb{
+	display: block;
+	border-radius:5px ;
+	background-color: coral;
+	width: 50px;
+	top: 10px;
+	right: 10px;
+}
+.bb:hover {
+	background-color:chartreuse;
+	box-shadow: 0 0 5px yellow,0 0 25px yellow,0 0 50px yellow,0 0 300px pink;
+	display: block;
+	color: aliceblue;
+}
+.drop{
+	list-style: none;
+	display: none;
+	color: aliceblue;
+	border-radius: 10px;
+}
+.dd{
+	width: 50px;
+}
+.dd:hover .drop{
+	display: block;
+	background-color:brown;
+	width: 100px;
+	margin-left: 20px;
+	margin-top: 5px;
+	text-align: center;
+	padding: 5px;
+}
+.top-right-button {
+	position: absolute;
+	border-radius:5px ;
+	background-color: white;
+	top: 10px;
+	right: 10px;
+  }
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	background-color:aqua;
+	box-shadow: 0 0 5px yellow,0 0 25px yellow,0 0 50px yellow,0 0 300px pink;
+	display: block;
+	color: black;
+}
+marquee{
+	color: rgb(147, 252, 133);
+	margin: 20px;
+	text-align:top;
+}
+svg{
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+}
+textarea{
+	display: block;
+	width: 95%;
+	height:30%;
+	background-color: black;
+	color: aliceblue;
+}
+
+iframe{
+	display:block;
+	width: 95%;
+	height: 100vh;
+	color: aliceblue;
+	background-color: aliceblue;
+}
+.ksk{
+	width: 50%;
+}
+.kk{
+	width: 50%;
+}
+.su{
+	display:flex;
+	width: 100%;
+	height: 100vh;
+	margin: 100px;
+}
+label{
+	text-align: center;
+	background-color: yellow;
+	display: block;
+	width: 96%;
+}
